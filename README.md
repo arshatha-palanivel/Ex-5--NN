@@ -34,7 +34,9 @@ Step 6: Test the network for accuracy<br>
 Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
 <H3>PROGRAM:</H3>
+
 ```PY
+
 import numpy as np
 import matplotlib.pyplot as plt
 def gaussian_rbf(x, landmark, gamma=1):
@@ -76,7 +78,9 @@ def end_to_end (X1, X2, ys, mu1, mu2):
   print(ys)
   print(f"Weights: {W}")
   return W
+  
 ```
+
 <H3>OUTPUT:</H3>
 
 ![image](https://github.com/arshatha-palanivel/Ex-5--NN/assets/118682484/34a4694c-3923-4361-9082-80e4472775a3)
